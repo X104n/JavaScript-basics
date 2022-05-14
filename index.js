@@ -13,3 +13,13 @@ let selection = 'name';
 person[selection] = 'Mary';
 
 console.log(person.name)
+
+let selectedColors = ['red', 'blue'];
+selectedColors[2] = 'green';
+console.log(selectedColors)
+
+function greet(name) {
+    console.log('Hello', name);
+}
+
+greet('Stan');
